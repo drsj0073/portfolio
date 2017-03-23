@@ -2,10 +2,198 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>SCSS Boilerplate</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta name="description" content="John Dirstein is a web developer from Toronto, Ontario. Skills include Reactjs, javascript and responsive design">
+	<title>John's portfolio</title>
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="public/styles/style.css">
 </head>
 <body>
-	
+	<header>
+		<div class="hero">
+			<div class="container">
+				<nav>
+					<h1 class="hero__logo"><a href="#">John Dirstein</a></h1>
+					<ul class="nav">
+						<li><a href="#" class="nav__link-items">Home</a></li>
+						<li><a href="#" class="nav__link-items">About</a></li>
+						<li><a href="#" class="nav__link-items">Portfolio</a></li>
+						<li><a href="#" class="nav__link-items">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="hero__text-box">
+					<h3 class="hero__title">I am John Dirstein</h3>
+					<h2 class="hero__subtitle">I'm a Front End Web Developer</h2>
+					<a href="#" class="btn btn--orange">See my portfolio</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="about-me">
+				<div class="fourty-percent">
+					<img src="assets/images/johnathon-dirstein-2.png" alt="John Dirstein">
+				</div>
+				<div class="sixty-percent">
+					<p class="about-me__hello">Hello</p>
+					<h3 class="about-me__title">About Me</h3>
+					<p class="body-text">I'm John Dirstein - a front-end web developer from Toronto, Ontario. When I'm not pushing myself in Jiu Jitsu or playing with my cat (Freddie), I spend my time developing professional websites.</p>
+					<p class="body-text">I've completed the part time intro and advanced web development at HackerYou, which led me to completing the full time bootcamp shortly after. During this time, I learned to:</p>
+					<ul>
+						<li class="about-me__list-item"><i class="fa fa-square fa-orange" aria-hidden="true"></i>
+							Build beautiful, responsive websites with <span class="about-me__orange-underline">SCSS/PostCSS</span>.
+						</li>
+						<li class="about-me__list-item"><i class="fa fa-square fa-orange" aria-hidden="true"></i>
+							Utilize <span class="about-me__orange-underline">JQuery</span> to add to the users experience and create an engaging experience.
+						</li>
+						<li class="about-me__list-item"><i class="fa fa-square fa-orange" aria-hidden="true"></i>
+							Develop using <span class="about-me__orange-underline">ES6</span> and <span class="about-me__orange-underline">modular components</span> to maximize organization and readability.
+						</li>
+						<li class="about-me__list-item"><i class="fa fa-square fa-orange" aria-hidden="true"></i>
+							Extract data from <span class="about-me__orange-underline">API's</span>.
+						</li>
+						<li class="about-me__list-item"><i class="fa fa-square fa-orange" aria-hidden="true"></i>
+							Create usable applications with <span class="about-me__orange-underline">React</span> and <span class="about-me__orange-underline">Firebase</span> which have authorization and a functional database.
+						</li>
+					</ul>
+					
+					<a href="#" class="btn btn--extra-m">Download my CV<i class="fa fa-download" aria-hidden="true"></i></a>
+				</div>	
+			</div>
+		</div>
+	</section> <!-- End of About Me section -->
+	<section class="portfolio">
+			<div class="container">
+				<h3>Portfolio</h3>
+				<div>
+				    <ul class="controls">
+				        <li class="filter" data-filter="all">All</li>
+				        <li class="filter" data-filter=".react">React</li>
+				    </ul>
+				</div>
+			</div>
+	</section> <!-- End of Portfolio section -->
+	<section class="education">
+		<div class="container">
+			<h3 class="section-title section-title--white">My Education</h3>
+			<div class="education__box-container">
+				<div class="education__box">
+					<h4 class="education__position">
+						Intro to Web Development
+					</h4>
+					<h5 class="education__school">Hacker You</h5>
+					<p>Introduced hands-on, project-based learning where I learned to create beautiful and functional websites from scratch.</p>
+				</div>
+				<div class="education__box">
+					<h4 class="education__position">
+						Advanced Web Development
+					</h4>
+					<h5 class="education__school">Hacker You</h5>
+					<p>An emphasis was placed on developing sites that are mobile responsive and incorporate new CSS3 skills, such as animations with SVG's.</p>
+				</div>
+				<div class="education__box">
+					<h4 class="education__position">
+						Immersive Web Development
+					</h4>
+					<h5 class="education__school">Hacker You</h5>
+					<p>Collaborated with students and instructors in a project based environment. Developed sites using Javascript, JQuery, React, Firebase, Sass and BEM.</p>
+				</div>
+				<div class="education__box">
+					<h4 class="education__position">
+						Personal Support Worker
+					</h4>
+					<h5 class="education__school">Humber College</h5>
+					<p>Worked as part of the interdisciplinary health-care team by assisting people in various stages of Alzheimers. Monitored and recorded all aspects of personal care. Emphasis was placed on effective interpersonal skills, sensitivity and respect for the client's dignity.</p>
+				</div>
+			</div>
+		</div>
+	</section> <!-- End of Experience section -->
+	<section>
+		<div class="container">
+			<h3 class="section-title">Read My Blog</h3>
+			<div class="blog">
+				<div class="blog__item">
+					<img src="http://placehold.it/392x261">
+				    <p class="blog__title">Beginner steps with Git</p>
+				    <p>
+					<p class="blog__author">Posted By <span class="blog__author--orange">John Dirstein</span></p>
+				    </p>
+				    <article>Molestie tristique lorem interdum aliquetyxe justo viverra per parturient pretium feugiatmf quisque urna eget metus sed...
+				    </article>
+				    <a href="#" class="btn btn--extra-m">Read More</a>
+				</div>
+				<div class="blog__item">
+					<img src="http://placehold.it/392x261">
+				    <p class="blog__title">Beginner steps with Git</p>
+				    <p>
+					<p class="blog__author">Posted By <span class="blog__author--orange">John Dirstein</span></p>
+				    </p>
+				    <article>Molestie tristique lorem interdum aliquetyxe justo viverra per parturient pretium feugiatmf quisque urna eget metus sed...
+				    </article>
+				    <a href="#" class="btn btn--extra-m">Read More</a>
+				</div>
+				<div class="blog__item">
+					<img src="http://placehold.it/392x261">
+				    <p class="blog__title">Beginner steps with Git</p>
+				    <p>
+					<p class="blog__author">Posted By <span class="blog__author--orange">John Dirstein</span></p>
+				    </p>
+				    <article>Molestie tristique lorem interdum aliquetyxe justo viverra per parturient pretium feugiatmf quisque urna eget metus sed...
+				    </article>
+				    <a href="#" class="btn btn--extra-m">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section> <!-- End of Blog section -->
+	<section class="contact">
+		<div class="container">
+			<h3 class="section-title">Get in touch</h3>
+			<div class="contact__container">
+					<div class="fourty-percent">
+						<h4 class="contact__title">Contact</h4>
+						<p class="contact__details-title">
+						    <i class="fa fa-map-marker" aria-hidden="true"></i>
+						    <span>Address:</span><p class="contact__details">505 - 10 Tobermory Drive, Toronto, Onario</p>
+						</p>
+						<p class="contact__details-title">
+						    <i class="fa fa-phone" aria-hidden="true"></i>
+						    <span>Phone Number:</span><p class="contact__details">226 - 504 - 2151</p>
+						</p>
+						<p class="contact__details-title">
+						    <i class="fa fa-envelope" aria-hidden="true"></i>
+						    <span>Email:</span><p class="contact__details">johndirstein@gmail.com</p>
+						</p>
+
+						<div class="contact__social-media">
+						    <h4 class="contact__title">Follow me on social media:</h4>
+						    <a href="#" class="btn"><i class="fa fa-twitter contact__icons" aria-hidden="true"></i></a>
+						    <a href="#" class="btn"><i class="fa fa-linkedin contact__icons" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<div class="sixty-percent">
+						<form class="form">
+				            <input type="text" placeholder="Name" id="name">
+
+				            <input type="text" placeholder="Email" id="email">
+
+				            <textarea placeholder="Lets Talk!"></textarea>
+				            <input type="submit" value="Send" class="btn btn--form btn--extra-m">
+						</form>
+					</div>
+			</div>
+		</div>
+	</section> <!-- End of Contact Me section -->
+	<footer>
+		<div class="container">
+		    <div class="copyright">
+		        <p>Copyright © 2017 John Dirstein | Photo credit: <a href="http://pamlau.com">Pam Lau</a></p>
+		    </div>	
+		</div>
+	</footer>
+	<!--End Footer-->
 </body>
 </html>

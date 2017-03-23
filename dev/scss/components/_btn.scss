@@ -1,0 +1,26 @@
+// btn
+
+.btn {
+	background-color: $black;
+	display: inline-block;
+	color: $white;
+	padding: .75rem 1.2rem;
+	text-transform: uppercase;
+	transition: all 0.3s;
+	&:hover {
+		background-color: $orange;
+	}
+	&--orange {
+		background-color: $orange;
+		&:hover {
+			background-color: $black;
+		}
+	}
+	&--extra-m {
+		margin: 20px 0;
+	}
+	&--form {
+		width: 20%;
+		border: none;
+	}
+}

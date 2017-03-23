@@ -1,0 +1,19 @@
+.blog {
+	display: flex;
+	padding-top: 20px;
+	// flex-wrap: wrap;
+	&__item {
+		width: 31%;	}
+		justify-content: space-between;
+	&__title {
+		font-size: 1.4rem;
+		font-weight: 600;
+		padding: 10px 0;
+	}
+	&__author {
+		padding-bottom: 10px;
+	}
+	&__author--orange {
+		color: $orange;
+	}
+}

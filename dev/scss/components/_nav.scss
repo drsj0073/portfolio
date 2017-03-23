@@ -1,0 +1,20 @@
+// Nav
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	&__link-items {
+		transition: all 0.3s;
+		font-size: 1.1rem;
+		padding: 20px;
+		text-transform: uppercase;
+		&:hover {
+			color: $orange;
+		}
+	}
+}

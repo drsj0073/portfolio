@@ -1,0 +1,39 @@
+.about-me {
+	display: flex;
+	width: 100%;
+	padding-top: 20px;
+	&__hello {
+		position: relative;
+		background-color: $orange;
+		display: inline-block;
+		color: $white;
+		width: auto;
+		padding: 10px 20px;
+		text-transform: uppercase;
+	}
+	&__hello:before {
+		content: "";
+		width: 0;
+		border-style: solid;
+		border-width: 12px 12px 0 0;
+		border-color: $orange transparent transparent transparent;
+		bottom: -12px;
+		left: 0px;
+		position: absolute;
+	}
+	&__title {
+		color: $black;
+		font-size: 2.5rem;
+		padding: 10px 0;
+		text-transform: uppercase;
+	}
+	&__list-item {
+		line-height: 1.5;
+		padding: 4.2px 0;
+	}
+	&__orange-underline {
+		border-bottom: 2px solid $orange;
+		padding-bottom: 1px;
+		color: $black;
+	}
+}
