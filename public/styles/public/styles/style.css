@@ -164,7 +164,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background-size: cover;
   background-repeat: no-repeat; }
   .hero__logo {
-    font-family: 'Roboto Slab', serif;
     display: inline;
     padding: 20px 0;
     text-transform: uppercase; }
@@ -181,13 +180,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     height: 80vh; }
   .hero__title {
     font-size: 1.6rem;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff; }
   .hero__subtitle {
     text-transform: uppercase;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
     font-size: 2.7rem;
     margin: 15px 0 25px 0;
     color: #fff; }
@@ -214,12 +210,10 @@ nav {
   display: -ms-flexbox;
   display: flex; }
   .nav__links {
-    font-weight: 300;
     transition: all 0.3s;
     font-size: 1.1rem;
     padding: 20px;
-    text-transform: uppercase;
-    font-family: 'Quicksand', sans-serif; }
+    text-transform: uppercase; }
     .nav__links:hover {
       color: #e68200; }
   .nav__links-last {
@@ -284,17 +278,15 @@ nav {
     left: 0px;
     position: absolute; }
   .about-me__text-box {
-    padding-left: 40px;
-    font-family: 'Quicksand', sans-serif; }
+    padding-left: 40px; }
   .about-me__title {
     color: #131313;
-    font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
-    padding: 20px 0;
+    padding: 10px 0;
     text-transform: uppercase; }
   .about-me__list-item {
     line-height: 1.5;
-    padding: 4px 0;
+    padding: 4.2px 0;
     font-family: 'Quicksand', sans-serif; }
   .about-me__orange-underline {
     border-bottom: 2px solid #e68200;
@@ -369,7 +361,6 @@ nav {
   .blog__item {
     width: 31%; }
   .blog__title {
-    font-family: 'Roboto Slab', serif;
     font-size: 1.4rem;
     font-weight: 600;
     padding: 10px 0; }
@@ -389,7 +380,6 @@ nav {
   background-color: #f2f2f2; }
   .contact__title {
     font-size: 1.4rem;
-    font-family: 'Roboto Slab', serif;
     margin-bottom: 10px; }
   .contact__container {
     display: -ms-flexbox;
@@ -402,7 +392,6 @@ nav {
     padding: 0 10px 20px 0;
     width: 100%; }
   .contact__details-title {
-    font-family: 'Roboto Slab', serif;
     display: inline-block;
     margin-right: 10px;
     color: #131313; }
@@ -462,7 +451,6 @@ textarea {
     padding: 20px; }
   .portfolio__title {
     color: #131313;
-    font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
     padding: 10px 0;
     font-size: 1.8rem; }
@@ -502,6 +490,7 @@ textarea {
     width: 100%; } }
 
 body {
+  font-family: 'Roboto Slab', serif;
   color: #828282;
   letter-spacing: 1.1px; }
 
@@ -534,7 +523,6 @@ section {
 
 .section-title {
   font-size: 2.5rem;
-  font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 20px;

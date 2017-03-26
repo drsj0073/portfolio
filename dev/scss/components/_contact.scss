@@ -1,0 +1,61 @@
+.contact {
+	background-color: $background-grey;
+	&__title {
+		font-size: 1.4rem;
+		font-family: 'Roboto Slab', serif;
+		margin-bottom: 10px;
+	}
+	&__container {
+		display: flex;
+		align-items: center;
+	}
+	&__details {
+		display: inline-block;
+		font-family: 'Quicksand', sans-serif;
+		padding: 0 10px 20px 0;
+		width: 100%;
+	}
+	&__details-title {
+		font-family: 'Roboto Slab', serif;
+		display: inline-block;
+		margin-right: 10px;
+		color: $black;
+
+	}
+	&__social-media {
+		margin: 10px 0;
+	}
+	&__icons {
+		font-size: 1.1rem;
+	}
+}
+
+.form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	input[type="text"] {
+		padding: 10px;
+		margin: 10px 0;
+		border:none;
+	}
+
+	textarea {
+		padding: 10px;
+		margin: 10px 0;
+		border: none;
+	}
+
+
+@media (max-width: 830px) {
+	.contact {
+		&__container {
+		flex-direction: column;
+		}
+	}
+	.form {
+		padding-top: 20px;
+		width: 100%;
+	}
+}

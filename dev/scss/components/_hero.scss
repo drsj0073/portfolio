@@ -7,6 +7,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	&__logo {
+		font-family: 'Roboto Slab', serif;
+		display: inline;
 		padding: 20px 0;
 		text-transform: uppercase;
 	}
@@ -20,11 +22,30 @@
 	}
 	&__title {
 		font-size: 1.6rem;
+		font-family: 'Roboto Slab', serif;
+		font-weight: 300;
 		color: $white;
 	}
 	&__subtitle {
-		font-size: 2.5rem;
+		text-transform: uppercase;
+		font-family: 'Roboto Slab', serif;
+		font-weight: 400;
+		font-size: 2.7rem;
 		margin: 15px 0 25px 0;
 		color: $white;
+	}
+}
+
+@media (max-width: 830px) {
+	.hero__logo {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.hero__logo {
+		max-width: 120px;
+		text-align: center;
+		font-size: 1.5rem;
 	}
 }

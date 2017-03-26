@@ -11,22 +11,16 @@
 @import "components/aboutme";
 @import "components/education";
 @import "components/blog";
+@import "components/contact";
+@import "components/portfolio";
+@import "components/columns";
 
 // Global 
 
 body {
-	font-family: 'Roboto Slab', serif;
 	color: $grey;
-	letter-spacing: 1.2px;
+	letter-spacing: 1.1px;
 }
-
-	.fourty-percent {
-		width: 40%;
-	}
-	.sixty-percent {
-		width: 60%;
-		padding-left: 50px;
-	}
 
 a {
 	text-decoration: none;
@@ -43,8 +37,9 @@ img {
 
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1280px;
 	margin: 0 auto;
+	padding: 0 20px;
 }
 
 section {
@@ -54,20 +49,16 @@ section {
 .body-text {
 	line-height: 1.6;
 	padding: 5px 0;
-}
+	font-family: 'Quicksand', sans-serif;
+}	
 
 .fa-orange {
 	color: $orange;
 }
 
-.portfolio {
-	background-color: $background-grey;
-}
-
-
-
 .section-title {
 	font-size: 2.5rem;
+	font-family: 'Roboto Slab', serif;
 	text-transform: uppercase;
 	text-align: center;
 	padding-bottom: 20px;
@@ -76,51 +67,6 @@ section {
 		color: $white;
 	}
 }
-
-.contact {
-	background-color: $background-grey;
-	&__title {
-		font-size: 1.4rem;
-		margin-bottom: 10px;
-	}
-	&__container {
-		display: flex;
-		align-items: center;
-	}
-	&__details {
-		display: inline-block;
-	}
-	&__details-title {
-		display: inline-block;
-		padding: 0 10px 20px 0;
-		color: $black;
-
-	}
-	&__social-media {
-		margin: 10px 0;
-	}
-	&__icons {
-		font-size: 1.1rem;
-		display: inline-block;
-	}
-}
-
-	.form {
-		display: flex;
-		flex-direction: column;
-	}
-
-	input[type="text"] {
-		padding: 10px;
-		margin: 10px 0;
-		border:none;
-	}
-
-	textarea {
-		padding: 10px;
-		margin: 10px 0;
-		border: none;
-	}
 
 footer {
 	background-color: $black;

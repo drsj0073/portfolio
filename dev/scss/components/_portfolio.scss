@@ -1,0 +1,54 @@
+.portfolio {
+	background-color: $background-grey;
+
+	&__piece-container {
+		display: flex;
+		align-items: center;
+		padding: 40px 30px;
+		margin: 25px 0 25px 0;
+		background-color: $white;
+		position: relative;
+		overflow: hidden;
+	}
+	&__piece-container:after {
+		content: "";
+		width: 100%;
+		border-style: solid;
+		border-width: 2px;
+		border-color: $orange;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+	}
+	&__description {
+		position: relative;
+		background-color: $white;
+		padding: 20px;
+	}
+	&__title {
+		color: $black;
+		font-family: 'Roboto Slab', serif;
+		text-transform: uppercase;
+		padding: 10px 0;
+		font-size: 1.8rem;
+	}
+	&__paragraph {
+		font-family: 'Quicksand', sans-serif;
+		padding: 10px 0;
+	}
+}
+
+@media (max-width: 830px) {
+	.portfolio {
+
+		&__description {
+			width: 100%;
+			padding: 0;
+		}
+
+		&__piece-container {
+			display: block;
+			width: 100%;
+		}
+	}
+}

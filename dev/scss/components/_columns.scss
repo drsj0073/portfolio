@@ -1,0 +1,29 @@
+.fourty-percent {
+	width: 40%;
+}
+
+.fifty-percent {
+	width: 50%;
+	padding: 30px;
+}
+
+.sixty-percent {
+	width: 60%;
+}
+
+@media (max-width: 830px) {
+	.fourty-percent {
+		width: 100%;
+	}
+
+	.fifty-percent {
+		display: flex;
+		width: 100%;
+		padding: 0;
+	}
+
+	.sixty-percent {
+		display: flex;
+		width: 100%;
+}
+}
