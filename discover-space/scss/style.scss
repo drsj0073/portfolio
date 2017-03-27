@@ -1,0 +1,42 @@
+// Base
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/normalize";
+
+// Components
+
+@import "components/typography";
+@import "components/information";
+@import "components/particles";
+@import "components/header";
+@import "components/section-backgrounds";
+@import "components/planet-container";
+
+body {
+	color: #555;
+}
+
+// WRAPPER
+.wrapper {
+	padding: 40px 20px;
+}
+
+// Toggled by jquery to hide empty divs for user input
+.hidden {
+	display: none;
+}
+
+// GLOBAL
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+

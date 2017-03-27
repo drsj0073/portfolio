@@ -12,6 +12,9 @@
 		padding: 20px 0;
 		text-transform: uppercase;
 	}
+	&__logo--orange {
+		color: $orange;
+	}
 	&__text-box {
 		display: flex;
 		flex-direction: column;

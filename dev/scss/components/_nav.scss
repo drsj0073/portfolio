@@ -25,6 +25,15 @@ nav {
 	}
 }
 
+
+// To anyone reading my code - I know, i know... I used !important. This is the first and last time. Promise!
+@media (min-width: 830px) {
+	.nav {
+		display: flex !important;
+	}
+}
+
+
 @media (max-width: 830px) {
 	.nav {
 		display: none;

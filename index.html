@@ -17,7 +17,7 @@
 		<div class="hero">
 			<div class="container">
 				<nav>
-					<h1 class="hero__logo"><a href="#">John Dirstein</a></h1>
+					<h1 class="hero__logo"><a href="#">John <span class="hero__logo--orange">Dirstein</span></a></h1>
 					<ul class="nav" id="main-nav">
 						<li class="nav__list-item"><a href="#about-me" class="nav__links">About</a></li>
 						<li class="nav__list-item"><a href="#portfolio" class="nav__links">Portfolio</a></li>
@@ -79,8 +79,8 @@
 						<div class="portfolio__description">
 						   <h3 class="portfolio__title">Javascript/Api</h3>
 						   <p class="portfolio__paragraph">Discover Space uses 2 weather api's, with the goal of being a fun, interactive site for children to discover interesting space facts.</p>
-						   <a href="#" target="_blank" class="btn btn--orange btn--extra-m">Live Site</a>
-						   <a href="#" target="_blank" class="btn btn--ghost btn--extra-m">Github</a>
+						   <a href="http://johndirstein.com/discover-space/" target="_blank" class="btn btn--orange btn--extra-m">Live Site</a>
+						   <a href="https://github.com/drsj0073/discover-space" target="_blank" class="btn btn--ghost btn--extra-m">Github</a>
 						</div>
 					</div>
 					<div class="fifty-percent">
@@ -170,27 +170,27 @@
 			<h3 class="section-title">Read My Blog</h3>
 			<div class="blog">
 				<div class="blog__item">
-					<img src="http://placehold.it/392x261">
+					<img src="assets/images/react-logo.png" class="blog__image">
+				    <p class="blog__title">5 things I learned about React.Js</p>
+				    <p>
+					<p class="blog__author">Posted By <span class="blog__author--orange">John Dirstein</span></p>
+				    </p>
+				    <article class="body-text">As someone who’s new to React, i’m quickly becoming familiar with it, and really enjoy and see the massive potential. With my coding bootcamp ending soon...
+				    </article>
+				    <a href="https://medium.com/@drsj0073/5-things-i-learned-about-react-js-a0af6dd59b30#.qldqvq2tl" class="btn btn--black btn--extra-m">Read More</a>
+				</div>
+				<div class="blog__item">
+					<img src="assets/images/git.png" class="blog__image">
 				    <p class="blog__title">Beginner steps with Git</p>
 				    <p>
 					<p class="blog__author">Posted By <span class="blog__author--orange">John Dirstein</span></p>
 				    </p>
-				    <article class="body-text">Molestie tristique lorem interdum aliquetyxe justo viverra per parturient pretium feugiatmf quisque urna eget metus sed...
+				    <article class="body-text">This is a very basic introduction, but it should help get you started and the TIPS are things that I became stuck on at one point or...
 				    </article>
-				    <a href="#" class="btn btn--black btn--extra-m">Read More</a>
+				    <a href="https://medium.com/@drsj0073/basics-of-git-and-local-file-restoration-a3dcbcf66e82#.bc99z4yyy" class="btn btn--black btn--extra-m">Read More</a>
 				</div>
 				<div class="blog__item">
-					<img src="http://placehold.it/392x261">
-				    <p class="blog__title">Beginner steps with Git</p>
-				    <p>
-					<p class="blog__author">Posted By <span class="blog__author--orange">John Dirstein</span></p>
-				    </p>
-				    <article class="body-text">Molestie tristique lorem interdum aliquetyxe justo viverra per parturient pretium feugiatmf quisque urna eget metus sed...
-				    </article>
-				    <a href="#" class="btn btn--black btn--extra-m">Read More</a>
-				</div>
-				<div class="blog__item">
-					<img src="http://placehold.it/392x261">
+					<img src="http://placehold.it/392x261" class="blog__image">
 				    <p class="blog__title">Beginner steps with Git</p>
 				    <p>
 					<p class="blog__author">Posted By <span class="blog__author--orange">John Dirstein</span></p>
@@ -229,12 +229,12 @@
 						</div>
 					</div>
 					<div class="sixty-percent">
-						<form action="http://www.focuspocus.io/magic/5bcc7b8a8dd364f31175c4339fa8f542" method="POST" class="form">
-				            <input type="text" placeholder="Name" id="name">
+						<form method="POST" action="http://formspree.io/johndirstein@gmail.com" class="form">
+				            <input type="text" placeholder="Name" id="name" name="name">
 
-				            <input type="text" placeholder="Email" id="email">
+				            <input type="text" placeholder="Email" id="email" name="email">
 
-				            <textarea placeholder="Lets Talk!"></textarea>
+				            <textarea placeholder="Lets Talk!" name="message"></textarea>
 				            <input type="submit" value="Send" class="btn btn--black btn--form btn--extra-m">
 						</form>
 					</div>
