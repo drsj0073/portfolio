@@ -17,7 +17,7 @@ nav {
 		text-transform: uppercase; 
 		font-family: 'Quicksand', sans-serif;
 		&:hover {
-			color: $orange;
+			color: $yellow;
 		}
 	}
 	&__links-last {
@@ -56,7 +56,7 @@ nav {
 	left: 0;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.98);
-	padding: 0 20px;
+	padding: 0 60px;
 	z-index: 999;
 }
 

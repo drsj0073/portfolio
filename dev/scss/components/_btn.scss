@@ -8,12 +8,13 @@
 	transition: all 0.3s;
 	border: 1px solid transparent;
 	&:hover {
-		background-color: $orange;
+		background-color: $yellow;
 	}
-	&--orange {
-		background-color: $orange;
+	&--yellow {
+		background-color: $yellow;
+		text-shadow: 1px 1px 1px $grey;
 		&:hover {
-			background-color: $lightOrange;
+			background-color: $lightYellow;
 		}
 	}
 	&--black {
@@ -27,11 +28,12 @@
 		border: none;
 	}
 	&--ghost {
-		border: 1px solid $orange;
-		color: $orange;
+		border: 1px solid $yellow;
+		color: $yellow;
 		&:hover {
-			background-color: $orange;
+			background-color: $yellow;
 			color: $white;
+			text-shadow: 1px 1px 1px $grey;
 		}
 	}
 }

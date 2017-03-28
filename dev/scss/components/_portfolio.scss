@@ -4,8 +4,8 @@
 	&__piece-container {
 		display: flex;
 		align-items: center;
-		padding: 40px 30px;
-		margin: 25px 0 25px 0;
+		padding: 10px 10px;
+		margin: 10px 0 40px 0;
 		background-color: $white;
 		position: relative;
 		overflow: hidden;
@@ -15,10 +15,13 @@
 		width: 100%;
 		border-style: solid;
 		border-width: 2px;
-		border-color: $orange;
+		border-color: $yellow;
 		bottom: 0;
 		right: 0;
 		position: absolute;
+	}
+	&__piece-container:last-child {
+		margin-bottom: 0;
 	}
 	&__description {
 		position: relative;
@@ -27,7 +30,7 @@
 	}
 	&__title {
 		color: $black;
-		font-family: 'Roboto Slab', serif;
+		font-family: 'Josefin Sans', sans-serif;
 		text-transform: uppercase;
 		padding: 10px 0;
 		font-size: 1.8rem;
