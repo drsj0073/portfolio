@@ -202,9 +202,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media (max-width: 480px) {
   .hero__logo {
-    max-width: 120px;
+    max-width: 130px;
     text-align: center;
-    font-size: 1.5rem; } }
+    font-size: 1.2rem; } }
 
 nav {
   display: -ms-flexbox;
@@ -218,7 +218,7 @@ nav {
   display: -ms-flexbox;
   display: flex; }
   .nav__links {
-    font-weight: 300;
+    font-weight: 400;
     transition: all 0.3s;
     font-size: 1.1rem;
     padding: 20px;
@@ -310,21 +310,37 @@ nav {
   .about-me__skills-title {
     color: #292B31;
     border-bottom: 3px solid #FCD85E;
-    width: 165px;
+    width: 175px;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     margin: 40px 0;
     font-size: 1.8rem; }
+  .about-me__skills-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .about-me__skills {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    padding: 0 10px 10px 0;
+    width: 140px; }
   .about-me__image {
     max-width: 100%; }
   .about-me__icon-image {
-    width: 8%;
-    margin: 0 10px 0 0; }
+    width: 25%;
+    margin: 0 10px 10px 0; }
   .about-me__resume {
     padding: 40px 0; }
 
 .images {
   width: 50%; }
+
+@media (max-width: 1000px) {
+  .about-me__skills {
+    width: 110px; } }
 
 @media (max-width: 830px) {
   .about-me {
@@ -337,13 +353,13 @@ nav {
     .about-me__image {
       max-width: 60%;
       display: block;
-      margin: 0 auto; }
-    .about-me__list {
-      margin-top: 20px; } }
+      margin: 0 auto; } }
 
 @media (max-width: 830px) and (max-width: 600px) {
   .about-me__image {
-    max-width: 80%; } }
+    max-width: 80%; }
+  .about-me__icon-image {
+    width: 30%; } }
 
 @media (max-width: 830px) and (max-width: 480px) {
   .about-me__image {
@@ -506,7 +522,8 @@ section {
 .body-text {
   line-height: 1.6;
   padding: 5px 0;
-  font-family: 'Quicksand', sans-serif; }
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400; }
 
 .fa-yellow {
   color: #FCD85E; }

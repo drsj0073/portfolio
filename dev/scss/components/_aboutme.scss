@@ -37,26 +37,44 @@
 	&__skills-title {
 		color: $black;
 		border-bottom: 3px solid $yellow;
-		width: 165px;
+		width: 175px;
 		font-family: 'Josefin Sans', sans-serif;
 		text-transform: uppercase;
 		margin: 40px 0;
 		font-size: 1.8rem;
 	}
+	&__skills-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__skills {
+		display: flex;
+		flex-direction: column;
+		padding: 0 10px 10px 0;
+		width: 140px;
+	}
 	&__image {
 		max-width: 100%;
 	}
 	&__icon-image {
-		width: 8%;
-		margin: 0 10px 0 0;
+		width: 25%;
+		margin: 0 10px 10px 0;
 	}
 	&__resume {
 		padding: 40px 0;
 	}
 }
 
+
+
 .images {
 	width: 50%;
+}
+
+@media (max-width: 1000px) {
+	.about-me__skills {
+		width: 110px;
+	}
 }
 
 @media (max-width: 830px) {
@@ -74,15 +92,15 @@
 			display: block;
 			margin: 0 auto;
 		}	
-		&__list {
-			margin-top: 20px;
-		}
 	}
 
 @media (max-width: 600px) {
 	.about-me {
 		&__image {
 			max-width: 80%;
+		}
+		&__icon-image {
+			width: 30%;
 		}
 	}
 }	
