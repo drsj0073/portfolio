@@ -29,15 +29,17 @@ li {
 	list-style: none;
 }
 
-img {
-	max-width: 100%;
-}
-
 .container {
 	width: 100%;
-	max-width: 1200px;
+ 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 60px;
+}
+
+@media (max-width: 600px) {
+	.container {
+		padding: 0 30px;
+	}
 }
 
 section {
@@ -59,8 +61,13 @@ section {
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
-	padding-bottom: 20px;
+	border-bottom: 3px solid $yellow;
+	width: 235px;
+	margin: 0 auto 40px auto;
 	color: $black;
+	&--width {
+		width: 290px;
+	}
 	&--white {
 		color: $white;
 	}

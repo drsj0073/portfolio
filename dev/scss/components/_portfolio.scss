@@ -39,6 +39,9 @@
 		font-family: 'Quicksand', sans-serif;
 		padding: 10px 0;
 	}
+	&__image {
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 830px) {

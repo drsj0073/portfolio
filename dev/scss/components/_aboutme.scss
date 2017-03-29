@@ -29,19 +29,34 @@
 		color: $black;
 		font-family: 'Josefin Sans', sans-serif;
 		font-size: 2.5rem;
-		padding: 20px 0;
+		margin: 40px 0 40px 0;
 		text-transform: uppercase;
+		border-bottom: 3px solid $yellow;
+		width: 215px;
 	}
-	&__list-item {
-		line-height: 1.5;
-		padding: 10px 0;
-		font-family: 'Quicksand', sans-serif;
-	}
-	&__orange-underline {
-		border-bottom: 2px solid $yellow;
-		padding-bottom: 1px;
+	&__skills-title {
 		color: $black;
+		border-bottom: 3px solid $yellow;
+		width: 165px;
+		font-family: 'Josefin Sans', sans-serif;
+		text-transform: uppercase;
+		margin: 40px 0;
+		font-size: 1.8rem;
 	}
+	&__image {
+		max-width: 100%;
+	}
+	&__icon-image {
+		width: 8%;
+		margin: 0 10px 0 0;
+	}
+	&__resume {
+		padding: 40px 0;
+	}
+}
+
+.images {
+	width: 50%;
 }
 
 @media (max-width: 830px) {

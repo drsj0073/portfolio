@@ -60,6 +60,12 @@ nav {
 	z-index: 999;
 }
 
+@media (max-width: 600px) {
+	.sticky {
+		padding: 0 30px;
+	}
+}
+
 /* Mobile Nav */
 
 
